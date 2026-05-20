@@ -1,0 +1,20 @@
+{
+	"name": "DS_SFTP_PQT",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_SFTP_ADLS_PARQUET",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "customers_dataset.csv",
+				"fileSystem": "input"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	}
+}
