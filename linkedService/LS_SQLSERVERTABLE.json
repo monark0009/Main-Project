@@ -1,0 +1,21 @@
+{
+	"name": "LS_SQLSERVERTABLE",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": "DESKTOP-SPFUOTO",
+			"database": "vbdevproject",
+			"encrypt": "optional",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "monark",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJkYjViZGFjZS0yODA5LTQ3ZTYtOWIxNS04MzFhMDU3NGM1YTAiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "SelfHostedintegrationRuntime1",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
