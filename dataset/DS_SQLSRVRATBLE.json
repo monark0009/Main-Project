@@ -1,0 +1,16 @@
+{
+	"name": "DS_SQLSRVRATBLE",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_SQLSERVERTABLE",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "olist_orders_dataset"
+		}
+	}
+}

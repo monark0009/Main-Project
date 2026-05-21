@@ -1,0 +1,19 @@
+{
+	"name": "DS_SQL_ADLS_PQT",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_SQL_ADLS_PQT",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "input"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	}
+}
